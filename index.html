@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+      <div class="py-6 flex justify-center">
+        <form
+          class="py-6 px-12 rounded-lg border border-red-900 bg-white sm:w-[40vw]"
+        >
+          <div class="pb-4 text-center text-3xl font-bold">
+            <h1
+              class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+            >
+              Registration Form
+            </h1>
+          </div>
+          <div class="flex justify-between">
+            <div class="mb-6">
+              <label
+                for="first Name"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >First Name
+              </label>
+              <input
+                type="text"
+                id="text"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                required
+                placeholder="e.g.Muhammad"
+              />
+            </div>
+            <div class="mb-6">
+              <label
+                for="last Name"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                >Last Name
+              </label>
+              <input
+                type="text"
+                id="text"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                required
+                placeholder="e.g.Mubeen"
+              />
+            </div>
+          </div>
+
+          <div class="mb-6">
+            <label
+              for="email"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Choose Your Username</label
+            >
+            <input
+              type="email"
+              id="email"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="e.g. username@gmail.com"
+              required
+            />
+          </div>
+          <div class="mb-6">
+            <label
+              for="password"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Password</label
+            >
+            <input
+              type="password"
+              id="password"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="Enter password"
+            />
+          </div>
+          <div class="mb-6">
+            <label
+              for="password"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Confirm password</label
+            >
+            <input
+              type="password"
+              id="password"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="Confirm password"
+            />
+          </div>
+          <div class="mb-6">
+            <label
+              for="Birthday"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Birthday</label
+            >
+            <input
+              type="date"
+              id="Birthday"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+            />
+          </div>
+          <div class="mb-6">
+            <label
+              for="gender"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Gender</label
+            >
+            <select
+              id="gender"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            >
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="mb-6">
+            <label
+              for="phone number"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Phone Number</label
+            >
+            <input
+              type="tel"
+              id="phoneNumber"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required
+              placeholder="e.g.(+92)3001111333"
+            />
+          </div>
+          <div class="mb-6">
+            <label
+              for="location"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Location</label
+            >
+            <select
+              id="location"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            >
+              <option value="Pakistan">Pakistan</option>
+              <option value="Canada">Canada</option>
+              <option value="Australia">Australia</option>
+              <option value="Bangladesh">Bangladesh</option>
+              <option value="Afghanistan">Afghanistan</option>
+            </select>
+          </div>
+          <div class="flex items-start mb-6">
+            <div class="flex items-center h-5">
+              <input
+                id="remember"
+                type="checkbox"
+                value=""
+                class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                required
+              />
+            </div>
+            <label
+              for="remember"
+              class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >Remember me</label
+            >
+          </div>
+          <button
+            type="submit"
+            class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+          >
+            Sign up
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
